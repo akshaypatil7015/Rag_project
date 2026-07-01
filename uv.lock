@@ -10,23 +10,6 @@ resolution-markers = [
     "python_full_version < '3.14' and sys_platform != 'emscripten' and sys_platform != 'win32'",
 ]
 
-[manifest]
-members = [
-    "02-vector-search",
-    "llm-rag-project",
-]
-
-[[package]]
-name = "02-vector-search"
-version = "0.1.0"
-source = { virtual = "02_vector_search" }
-dependencies = [
-    { name = "sentence-transformers" },
-]
-
-[package.metadata]
-requires-dist = [{ name = "sentence-transformers", specifier = ">=5.6.0" }]
-
 [[package]]
 name = "annotated-doc"
 version = "0.0.4"
