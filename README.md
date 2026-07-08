@@ -1,2 +1,2 @@
 # llm_Rag_project
-Introduction to RAG
+Introduction to RAG (Retrieval Augmented Generation).
